@@ -1,0 +1,502 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.0f1 (fb119bb0b476) revision 16454043'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32688 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\dev_ide\Unity\2022.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+E:/Work/CodeGym/CGO-Shooter
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+2745
+Successfully changed project path to: E:/Work/CodeGym/CGO-Shooter
+E:/Work/CodeGym/CGO-Shooter
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17316] Host "[IP] 192.168.1.4 [Port] 0 [Flags] 2 [Guid] 155058964 [EditorId] 155058964 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3AEF2HI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17316] Host "[IP] 192.168.1.4 [Port] 0 [Flags] 2 [Guid] 155058964 [EditorId] 155058964 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3AEF2HI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 6.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.0f1 (fb119bb0b476)
+[Subsystems] Discovering subsystems at path D:/dev_ide/Unity/2022.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Work/CodeGym/CGO-Shooter/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1c02)
+    Vendor:   NVIDIA
+    VRAM:     2978 MB
+    Driver:   31.0.15.3179
+Initialize mono
+Mono path[0] = 'D:/dev_ide/Unity/2022.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'D:/dev_ide/Unity/2022.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/dev_ide/Unity/2022.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/dev_ide/Unity/2022.3.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/dev_ide/Unity/2022.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005813 seconds.
+- Loaded All Assemblies, in  0.306 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 224 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.497 seconds
+Domain Reload Profiling: 803ms
+	BeginReloadAssembly (92ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (122ms)
+		LoadAssemblies (91ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (119ms)
+			TypeCache.Refresh (118ms)
+				TypeCache.ScanAssembly (107ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (497ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (450ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (317ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (89ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Work\CodeGym\CGO-Shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Work\CodeGym\CGO-Shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.672 seconds
+Refreshing native plugins compatible for Editor in 2.33 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.419 seconds
+Domain Reload Profiling: 1091ms
+	BeginReloadAssembly (139ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (467ms)
+		LoadAssemblies (254ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (284ms)
+			TypeCache.Refresh (271ms)
+				TypeCache.ScanAssembly (256ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (419ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (285ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (198ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3066 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.3 KB). Loaded Objects now: 3533.
+Memory consumption went from 121.0 MB to 120.9 MB.
+Total: 3.181600 ms (FindLiveObjects: 0.305700 ms CreateObjectMapping: 0.153600 ms MarkObjects: 2.616900 ms  DeleteObjects: 0.103900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.0 KB). Loaded Objects now: 3533.
+Memory consumption went from 72.0 MB to 72.0 MB.
+Total: 3.053800 ms (FindLiveObjects: 0.265700 ms CreateObjectMapping: 0.141800 ms MarkObjects: 2.624200 ms  DeleteObjects: 0.021400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.0 KB). Loaded Objects now: 3533.
+Memory consumption went from 71.6 MB to 71.6 MB.
+Total: 3.061400 ms (FindLiveObjects: 0.303400 ms CreateObjectMapping: 0.091500 ms MarkObjects: 2.619900 ms  DeleteObjects: 0.045400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+IOException: Sharing violation on path E:\Work\CodeGym\CGO-Shooter\ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <6aa56e57ab504395b555cf3ed50fa53d>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <6aa56e57ab504395b555cf3ed50fa53d>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <6aa56e57ab504395b555cf3ed50fa53d>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <6aa56e57ab504395b555cf3ed50fa53d>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <6aa56e57ab504395b555cf3ed50fa53d>:0 
+  at UnityEditor.SettingsManagement.FileSettingsRepository.Save () [0x000e2] in .\Library\PackageCache\com.unity.settings-manager@2.0.1\Editor\FileSettingsRepository.cs:154 
+  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <4911eca47f294e18a7b3306f02701303>:0 
+
+(Filename: ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs Line: 154)
+
+Symbol file LoadedFromMemory doesn't match image E:\Work\CodeGym\CGO-Shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Work\CodeGym\CGO-Shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.654 seconds
+Refreshing native plugins compatible for Editor in 2.00 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.641 seconds
+Domain Reload Profiling: 1295ms
+	BeginReloadAssembly (144ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (446ms)
+		LoadAssemblies (237ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (278ms)
+			TypeCache.Refresh (256ms)
+				TypeCache.ScanAssembly (243ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (642ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (235ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (153ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 3.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3058 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3536.
+Memory consumption went from 119.4 MB to 119.4 MB.
+Total: 2.394900 ms (FindLiveObjects: 0.197600 ms CreateObjectMapping: 0.082100 ms MarkObjects: 2.075400 ms  DeleteObjects: 0.038700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8863.071444 seconds.
+  path: Assets/Guns/Gun_1.fbx
+  artifactKey: Guid(e0ea2f31caca4034ea61fdbfad1285c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Gun_1.fbx using Guid(e0ea2f31caca4034ea61fdbfad1285c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de0ed83316f31911a52dff584899238') in 0.378582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Guns/Gun_4.fbx
+  artifactKey: Guid(f1180ce1ddccc944f99f1acbd6a043e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Gun_4.fbx using Guid(f1180ce1ddccc944f99f1acbd6a043e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa3a2dde567d27c9eae2cb91ac56e2df') in 0.042161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Guns/Gun_8.png
+  artifactKey: Guid(fc7052bebbb62a542b237971c2e330fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Gun_8.png using Guid(fc7052bebbb62a542b237971c2e330fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f4e4a50532abe729e26bec87cbbd968') in 0.046883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Guns/Gun_3.fbx
+  artifactKey: Guid(c9d73d79d2f1e3e4bab71e0a66a1cc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Gun_3.fbx using Guid(c9d73d79d2f1e3e4bab71e0a66a1cc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd23838ddee240b5baa310d212d764a5e') in 0.048871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Guns/gun_2.png
+  artifactKey: Guid(2ce693557ff109f468399002536bbeda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/gun_2.png using Guid(2ce693557ff109f468399002536bbeda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd64153eede2dd7be485060924a896a4') in 0.029160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Guns/Gun_8.fbx
+  artifactKey: Guid(e2da18f3f1f55a74cbff6b7b35436f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Gun_8.fbx using Guid(e2da18f3f1f55a74cbff6b7b35436f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ea0dba9d4c24d02f4a83999d303cf1') in 0.043042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Guns/gun_3.png
+  artifactKey: Guid(19d2e4980b3f8554da806e6cc5afbe8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/gun_3.png using Guid(19d2e4980b3f8554da806e6cc5afbe8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b81e6d0e35e965693b0ed718ba856af1') in 0.018060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Guns/gun_5.png
+  artifactKey: Guid(9f604980c7cf75f4f80f760f4760c19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/gun_5.png using Guid(9f604980c7cf75f4f80f760f4760c19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5005c24d76574f38e72049724ad6d4fc') in 0.026022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 54.015025 seconds.
+  path: Assets/Survival Shooter/Survival Shooter Anims/02_Crouching_InPlace.fbx
+  artifactKey: Guid(5945cac88f77b40bc8c3548a656644c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Shooter/Survival Shooter Anims/02_Crouching_InPlace.fbx using Guid(5945cac88f77b40bc8c3548a656644c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44546d3b898421243ea5c9e8d88fbd7e') in 0.007054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 163
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Survival Shooter/Survival Shooter Anims/21_Rifle_Walks.fbx
+  artifactKey: Guid(f8a2bbb8a23cb48098b9e8a96b7f456a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Shooter/Survival Shooter Anims/21_Rifle_Walks.fbx using Guid(f8a2bbb8a23cb48098b9e8a96b7f456a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f1f1e43cf3abf8a3a111229c219181d') in 0.003984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 162
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Survival Shooter/Survival Shooter Anims/10_PipeWalks.fbx
+  artifactKey: Guid(91b424f4854cf4d7cac4cdff65d1102a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Shooter/Survival Shooter Anims/10_PipeWalks.fbx using Guid(91b424f4854cf4d7cac4cdff65d1102a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52742677d68f53d2d2fa16231a47b8ae') in 0.004259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 176
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Survival Shooter/Survival Shooter Anims/17_Pistol_Melee.fbx
+  artifactKey: Guid(ce33e834ed4844f778aac16b2f0dc3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Shooter/Survival Shooter Anims/17_Pistol_Melee.fbx using Guid(ce33e834ed4844f778aac16b2f0dc3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f470519980868e86dc89b1991db6051b') in 0.004010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 160
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Survival Shooter/Survival Shooter Anims/04_Runs.fbx
+  artifactKey: Guid(a0cd61ab8fa9846de9a20e96e00de045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Shooter/Survival Shooter Anims/04_Runs.fbx using Guid(a0cd61ab8fa9846de9a20e96e00de045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8adc7e2f0e93e3a1132dd74609eb859b') in 0.005430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 163
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Survival Shooter/Survival Shooter Anims/11_PipeRuns.fbx
+  artifactKey: Guid(6e0a715c21c19459492a2158eb3b18e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Shooter/Survival Shooter Anims/11_PipeRuns.fbx using Guid(6e0a715c21c19459492a2158eb3b18e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0037255a993de8bc6d19975b4c9bb922') in 0.005233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 157
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Survival Shooter/Survival Shooter Anims/16_Pistol_Reloads.fbx
+  artifactKey: Guid(843553a041e5549478ca28dbc8a7ffe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Shooter/Survival Shooter Anims/16_Pistol_Reloads.fbx using Guid(843553a041e5549478ca28dbc8a7ffe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b387ce9e0ad49e9bed8fb29daef5d372') in 0.004144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 160
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Survival Shooter/Survival Shooter Anims/14_Pistol_Walks.fbx
+  artifactKey: Guid(6017eea06cb314f91b6279778939f54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Shooter/Survival Shooter Anims/14_Pistol_Walks.fbx using Guid(6017eea06cb314f91b6279778939f54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ddc434ba6c6714fec31b1351748dc2') in 0.007907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 162
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Survival Shooter/Survival Shooter Anims/22_Rifle_Runs_InPlace.fbx
+  artifactKey: Guid(621516c3d98314be8a184d33e389687c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Shooter/Survival Shooter Anims/22_Rifle_Runs_InPlace.fbx using Guid(621516c3d98314be8a184d33e389687c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8396491eb6a7d98b9c2f276c48b1649') in 0.005497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 163
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Survival Shooter/Survival Shooter Anims/23_Gun_Fire.fbx
+  artifactKey: Guid(3abee92d75cc84989ba1d6e5aa449219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Shooter/Survival Shooter Anims/23_Gun_Fire.fbx using Guid(3abee92d75cc84989ba1d6e5aa449219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb0affe0c11c891d77f8df40ad383549') in 0.004737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 160
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Survival Shooter/Survival Shooter Anims/21_Rifle_Walks_InPlace.fbx
+  artifactKey: Guid(2ac31e57ea9fd405299168076e63973c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Shooter/Survival Shooter Anims/21_Rifle_Walks_InPlace.fbx using Guid(2ac31e57ea9fd405299168076e63973c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1af83162d36d870323fc4bc83d54de') in 0.007058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 162
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Survival Shooter/Survival Shooter Anims/19_Rifle_Idle.fbx
+  artifactKey: Guid(9435da363920e48dda5f82f9f0c4066e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Shooter/Survival Shooter Anims/19_Rifle_Idle.fbx using Guid(9435da363920e48dda5f82f9f0c4066e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1ecbb6304a5024db5359e3849644a1') in 0.003522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 160
+========================================================================
+Received Import Request.
+  Time since last request: 7.258677 seconds.
+  path: Assets/Models/Survival Shooter Meshes/Survival_LOW_fbx.fbx
+  artifactKey: Guid(68e119a02bba24c4e91ae0c1588815c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Survival Shooter Meshes/Survival_LOW_fbx.fbx using Guid(68e119a02bba24c4e91ae0c1588815c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff0fe454d65c0eb89f97704c5d52185') in 0.384974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 166
+========================================================================
+Received Import Request.
+  Time since last request: 1344.537253 seconds.
+  path: Assets/Models/Weapons/Gun_2.fbx
+  artifactKey: Guid(c8c362cb4eecb4f4cbbb98b625af739a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Weapons/Gun_2.fbx using Guid(c8c362cb4eecb4f4cbbb98b625af739a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5efb98dd7c868fef7cd499d044987c0a') in 0.042530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/Weapons/Gun_4.fbx
+  artifactKey: Guid(f1180ce1ddccc944f99f1acbd6a043e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Weapons/Gun_4.fbx using Guid(f1180ce1ddccc944f99f1acbd6a043e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '294da7e35aa0f850809376883537bdeb') in 0.058806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/Models/Weapons/Gun_8.fbx
+  artifactKey: Guid(e2da18f3f1f55a74cbff6b7b35436f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Weapons/Gun_8.fbx using Guid(e2da18f3f1f55a74cbff6b7b35436f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71fe7e78c3b6d1f7cc180f975792fb61') in 0.040405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Models/Weapons/Gun_7.fbx
+  artifactKey: Guid(2dac068b2649e0049a7480c42242ef46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Weapons/Gun_7.fbx using Guid(2dac068b2649e0049a7480c42242ef46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '973742569d1dcd23459783f285cbea85') in 0.042440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
