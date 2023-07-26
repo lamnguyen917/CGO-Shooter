@@ -1,9 +1,7 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(InputControl))]
+[RequireComponent(typeof(WeaponControl))]
 public class PlayerControl : MonoBehaviour
 {
     [SerializeField] private InputControl inputControl;

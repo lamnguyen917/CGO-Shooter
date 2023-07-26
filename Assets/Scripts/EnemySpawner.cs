@@ -4,14 +4,10 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-    [SerializeField] protected Transform spawnPosition;
+    [SerializeField] private Transform spawnPosition;
 
-    void Start()
+    public void Spawn()
     {
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
+        
     }
 }
