@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8723601462716465896}
   - component: {fileID: 5770242394526787034}
   - component: {fileID: 4565786555894684589}
+  - component: {fileID: 9181720793454499487}
   m_Layer: 6
   m_Name: SpawnerDoor
   m_TagString: Untagged
@@ -129,6 +130,27 @@ MonoBehaviour:
   rightClosePosition: {x: -0.022611618, y: 0.051711, z: 0.89167887}
   lefOpenPosition: {x: -0.55, y: 0.051711, z: 0.89167887}
   rightOpenPosition: {x: 0.55, y: 0.051711, z: 0.89167887}
+--- !u!95 &9181720793454499487
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4393505109649035215}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cc47571b22aae7540a7b0bbf04e2c326, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &6740306942312804554
 GameObject:
   m_ObjectHideFlags: 0
