@@ -59,8 +59,7 @@ Transform:
   m_LocalPosition: {x: -0.066, y: 0.141, z: 0.033}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4736316889973665237}
+  m_Children: []
   m_Father: {fileID: 5335901096011972318}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: -14.18, z: 0}
@@ -1393,9 +1392,10 @@ GameObject:
   - component: {fileID: 6159089661815820525}
   - component: {fileID: 7228419908845666672}
   - component: {fileID: 5525526389308297309}
+  - component: {fileID: 839356558903606509}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1418,8 +1418,9 @@ Transform:
   - {fileID: 4661395886412499582}
   - {fileID: 5174088030073277256}
   - {fileID: 4837399151687112935}
+  - {fileID: 6975657226729728810}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &6986686667102584178
 Animator:
@@ -1457,6 +1458,7 @@ MonoBehaviour:
   mode: 0
   moveDirection: {x: 0, y: 0, z: 0}
   aimDirection: {x: 0, y: 0, z: 0}
+  shoot: 0
   isShooting: 0
   isMoving: 0
 --- !u!114 &6159089661815820525
@@ -1474,6 +1476,7 @@ MonoBehaviour:
   weaponR: {fileID: 8390382448150307515}
   gunList:
   - {fileID: 4865458056529025499}
+  aimTransform: {fileID: 6975657226729728810}
 --- !u!114 &7228419908845666672
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1486,9 +1489,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f5fb891eb1aac44dad777d8bec8e824, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hp: 0
+  maxHp: 100
+  bloodFx: {fileID: 100000, guid: 34cef3d5b7c293f41a5a8767158f0d13, type: 3}
+  onHpUpdate:
+    m_PersistentCalls:
+      m_Calls: []
   inputControl: {fileID: 1870716179860163625}
-  weaponControl: {fileID: 0}
+  weaponControl: {fileID: 6159089661815820525}
   animator: {fileID: 6986686667102584178}
+  isStableAim: 1
 --- !u!136 &5525526389308297309
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1512,6 +1522,33 @@ CapsuleCollider:
   m_Height: 1.85
   m_Direction: 1
   m_Center: {x: 0, y: 0.94, z: 0}
+--- !u!54 &839356558903606509
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4508812582953569241}
+  serializedVersion: 4
+  m_Mass: 50
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 84
+  m_CollisionDetection: 0
 --- !u!1 &4558207519934156993
 GameObject:
   m_ObjectHideFlags: 0
@@ -2737,6 +2774,38 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.0027624369, y: -0.35972428, z: -0.015723482}
     m_Extent: {x: 0.2950786, y: 0.57739586, z: 0.25026256}
   m_DirtyAABB: 0
+--- !u!1 &8979238735329467084
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6975657226729728810}
+  m_Layer: 0
+  m_Name: AimTarget
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6975657226729728810
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8979238735329467084}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.085, y: 1.4183335, z: 0.427}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4736316889973665237}
+  m_Father: {fileID: 5587463745675468948}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &9079660019984618463
 GameObject:
   m_ObjectHideFlags: 0
@@ -2922,7 +2991,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 8390382448150307515}
+    m_TransformParent: {fileID: 6975657226729728810}
     m_Modifications:
     - target: {fileID: 602378628870529545, guid: 3f4a80e6194ab5045aa60afe17469202, type: 3}
       propertyPath: m_Name
@@ -2930,19 +2999,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4701434062338282387, guid: 3f4a80e6194ab5045aa60afe17469202, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 4701434062338282387, guid: 3f4a80e6194ab5045aa60afe17469202, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.602051e-18
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4701434062338282387, guid: 3f4a80e6194ab5045aa60afe17469202, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.002665171
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4701434062338282387, guid: 3f4a80e6194ab5045aa60afe17469202, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.053909834
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4701434062338282387, guid: 3f4a80e6194ab5045aa60afe17469202, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2954,11 +3023,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4701434062338282387, guid: 3f4a80e6194ab5045aa60afe17469202, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4701434062338282387, guid: 3f4a80e6194ab5045aa60afe17469202, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4701434062338282387, guid: 3f4a80e6194ab5045aa60afe17469202, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

@@ -7,6 +7,7 @@ public class InputControl : MonoBehaviour
 
     public Vector3 moveDirection;
     public Vector3 aimDirection;
+    public bool shoot;
     public bool isShooting;
     public bool isMoving;
 
@@ -32,6 +33,7 @@ public class InputControl : MonoBehaviour
             case InputMode.Keyboard:
                 moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")).normalized;
                 isMoving = Input.GetButton("Horizontal") || Input.GetButton("Vertical");
+                shoot = Input.GetButtonDown("Fire1");
                 break;
             case InputMode.VirtualJoystick:
                 moveDirection = _joystick.MoveDirection;

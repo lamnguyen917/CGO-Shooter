@@ -10,7 +10,11 @@ public class WeaponControl : MonoBehaviour
 
     [SerializeField] private List<Gun> gunList;
 
+    [SerializeField] private Transform aimTransform;
+
     private int _currentIndex = 0;
+
+    private Gun CurrentGun => gunList[_currentIndex];
 
     private void Update()
     {
@@ -32,6 +36,7 @@ public class WeaponControl : MonoBehaviour
         {
             _currentIndex = 0;
         }
+
         SelectIndexGun();
     }
 
@@ -56,7 +61,6 @@ public class WeaponControl : MonoBehaviour
 
     public void Pickup(GameObject gunObject)
     {
-        
         Gun gun = gunObject.GetComponent<Gun>();
         gun.trigger.enabled = false;
         gunList.Add(gun);
@@ -68,15 +72,29 @@ public class WeaponControl : MonoBehaviour
 
         _currentIndex = gunList.Count - 1;
         SelectIndexGun();
-
     }
 
-    public void SelectWeapon(Gun gun)
+    public void AimAtTarget(Transform bone, Vector3 targetPosition)
     {
-        foreach (var gun1 in gunList)
-        {
-            gun.gameObject.SetActive(gun == gun1);
-        }
+        Vector3 aimDirection = aimTransform.forward;
+        Vector3 targetDirection = targetPosition - aimTransform.position;
+        Quaternion aimTowards = Quaternion.FromToRotation(aimDirection, targetDirection);
+        bone.rotation = aimTowards * bone.rotation;
+    }
 
+    public void StableAim(Animator animator)
+    {
+        animator.SetIKPositionWeight(AvatarIKGoal.LeftHand, 1);
+        animator.SetIKPositionWeight(AvatarIKGoal.RightHand, 1);
+        animator.SetIKPosition(AvatarIKGoal.LeftHand, CurrentGun.leftHandIk.position);
+        animator.SetIKPosition(AvatarIKGoal.RightHand, CurrentGun.rightHandIk.position);
+        var currentGunTransform = CurrentGun.transform;
+        currentGunTransform.position = aimTransform.position;
+        currentGunTransform.rotation = aimTransform.rotation;
+    }
+
+    public void Fire()
+    {
+        CurrentGun.Shoot();
     }
 }

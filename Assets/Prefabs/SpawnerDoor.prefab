@@ -163,7 +163,8 @@ GameObject:
   - component: {fileID: 6276547310318141983}
   - component: {fileID: 8985312904338749379}
   - component: {fileID: 8530241345798459262}
-  m_Layer: 7
+  - component: {fileID: 7332247469657414268}
+  m_Layer: 6
   m_Name: DoorSmallRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -257,6 +258,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300002, guid: 64cc21aa8889bba418fea99d1e5483b2, type: 3}
+--- !u!208 &7332247469657414268
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6740306942312804554}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.319, y: 1.3290001, z: 0.115}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0.319, y: 1.3290001, z: 0.115}
+  m_TimeToStationary: 0.5
 --- !u!1 &8091191310571531921
 GameObject:
   m_ObjectHideFlags: 0
@@ -269,7 +286,8 @@ GameObject:
   - component: {fileID: 7309009051286674306}
   - component: {fileID: 5728520966132636253}
   - component: {fileID: 1298942135939121265}
-  m_Layer: 7
+  - component: {fileID: 5634078625445467857}
+  m_Layer: 6
   m_Name: DoorSmallLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -363,6 +381,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300004, guid: 64cc21aa8889bba418fea99d1e5483b2, type: 3}
+--- !u!208 &5634078625445467857
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8091191310571531921}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.35000002, y: 1.3290001, z: 0.115}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.24200001, y: 1.3290001, z: 0.115}
+  m_TimeToStationary: 0.5
 --- !u!1001 &7604417817657295470
 PrefabInstance:
   m_ObjectHideFlags: 0
