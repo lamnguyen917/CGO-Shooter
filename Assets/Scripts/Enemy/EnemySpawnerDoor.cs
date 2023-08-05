@@ -12,34 +12,41 @@ public class EnemySpawnerDoor : EnemySpawner
     [SerializeField] private Vector3 lefOpenPosition;
     [SerializeField] private Vector3 rightOpenPosition;
 
+
     private bool _isOpen = false;
     private Vector3 _leftDoorTargetPosition;
     private Vector3 _rightDoorTargetPosition;
-
-    private void Start()
+    
+    protected override void ChildStart()
     {
         leftClosePosition = leftDoor.localPosition;
         rightClosePosition = rightDoor.localPosition;
         Close();
     }
 
-    private void Update()
+    protected override void ChildUpdate()
     {
-        // if ((leftDoor.localPosition - _leftDoorTargetPosition).magnitude > 0.001f)
-        // {
-        //     leftDoor.localPosition = Vector3.Lerp(leftDoor.localPosition, _leftDoorTargetPosition, Time.deltaTime);
-        // }
-        //
-        // if ((rightDoor.localPosition - _rightDoorTargetPosition).magnitude > 0.001f)
-        // {
-        //     rightDoor.localPosition = Vector3.Lerp(rightDoor.localPosition, _rightDoorTargetPosition, Time.deltaTime);
-        // }
-        //
-        // if (Input.GetKeyDown(KeyCode.T))
-        // {
-        //     Toggle();
-        // }
+        
     }
+
+    // private void Update()
+    // {
+    //     
+    //     // if ((leftDoor.localPosition - _leftDoorTargetPosition).magnitude > 0.001f)
+    //     // {
+    //     //     leftDoor.localPosition = Vector3.Lerp(leftDoor.localPosition, _leftDoorTargetPosition, Time.deltaTime);
+    //     // }
+    //     //
+    //     // if ((rightDoor.localPosition - _rightDoorTargetPosition).magnitude > 0.001f)
+    //     // {
+    //     //     rightDoor.localPosition = Vector3.Lerp(rightDoor.localPosition, _rightDoorTargetPosition, Time.deltaTime);
+    //     // }
+    //     //
+    //     // if (Input.GetKeyDown(KeyCode.T))
+    //     // {
+    //     //     Toggle();
+    //     // }
+    // }
 
     public void Toggle()
     {

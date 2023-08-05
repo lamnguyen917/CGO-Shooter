@@ -31,7 +31,7 @@ public class BaseCharacter : MonoBehaviour
         onHpUpdate.Invoke(hp, maxHp);
     }
 
-    void Dead()
+    protected virtual void Dead()
     {
         Destroy();
     }

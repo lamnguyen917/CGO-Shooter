@@ -64,4 +64,11 @@ public class PlayerControl : BaseCharacter
             weaponControl.Fire();
         }
     }
+
+    protected override void Dead()
+    {
+        base.Dead();
+        Debug.Log("Player death");
+        GameManager.Instance.onPlayerDeath.Invoke();
+    }
 }

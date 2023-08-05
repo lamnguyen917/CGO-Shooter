@@ -50,4 +50,10 @@ public class Enemy : BaseCharacter
         Debug.Log("Damage by enemy");
         GameManager.Instance.player.GetComponent<BaseCharacter>().Damage(damage, Vector3.zero);
     }
+
+    protected override void Dead()
+    {
+        base.Dead();
+        GameManager.Instance.onEnemyDeath.Invoke();
+    }
 }

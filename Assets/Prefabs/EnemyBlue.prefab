@@ -1271,7 +1271,7 @@ GameObject:
   - component: {fileID: 5624049970779359659}
   - component: {fileID: 3103540570598852942}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: EnemyBlue
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1293,7 +1293,7 @@ Transform:
   - {fileID: 8794623977318300019}
   - {fileID: 7902558666505048400}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &2259495102295110627
 Animator:
@@ -1359,6 +1359,8 @@ MonoBehaviour:
   agent: {fileID: 2795489788423098099}
   targetPlayer: 1
   rotationSpeed: 0.25
+  damage: 10
+  animator: {fileID: 2259495102295110627}
 --- !u!54 &5624049970779359659
 Rigidbody:
   m_ObjectHideFlags: 0
