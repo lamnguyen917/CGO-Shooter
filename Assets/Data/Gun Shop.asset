@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb5c9764c5fc89544a7aeee2e767e3bc, type: 3}
+  m_Name: Gun Shop
+  m_EditorClassIdentifier: 
+  ItemList:
+  - Name: Gun_1
+    Price: 1000
+    Icon: {fileID: -1238504065, guid: 23248321a761f2e49b1068e771ea6fc9, type: 3}
+  - Name: Gun_2
+    Price: 1200
+    Icon: {fileID: -758749833, guid: 23248321a761f2e49b1068e771ea6fc9, type: 3}
+  - Name: Gun_3
+    Price: 1500
+    Icon: {fileID: 266862954, guid: 23248321a761f2e49b1068e771ea6fc9, type: 3}
+  - Name: Gun_4
+    Price: 2000
+    Icon: {fileID: 1963719376, guid: 23248321a761f2e49b1068e771ea6fc9, type: 3}
+  - Name: Gun_5
+    Price: 3000
+    Icon: {fileID: -886038351, guid: 23248321a761f2e49b1068e771ea6fc9, type: 3}
+  - Name: Gun_6
+    Price: 5000
+    Icon: {fileID: 52452671, guid: 23248321a761f2e49b1068e771ea6fc9, type: 3}
+  - Name: Gun_7
+    Price: 7500
+    Icon: {fileID: 100514708, guid: 23248321a761f2e49b1068e771ea6fc9, type: 3}
+  - Name: Gun_8
+    Price: 12000
+    Icon: {fileID: -1582487272, guid: 23248321a761f2e49b1068e771ea6fc9, type: 3}

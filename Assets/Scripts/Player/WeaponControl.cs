@@ -91,8 +91,6 @@ public class WeaponControl : MonoBehaviour
         var currentGunTransform = CurrentGun.transform;
         currentGunTransform.position = aimTransform.position;
         currentGunTransform.rotation = aimTransform.rotation;
-
-        Debug.DrawRay(currentGunTransform.position, currentGunTransform.forward * 100);
     }
 
     public void Fire()

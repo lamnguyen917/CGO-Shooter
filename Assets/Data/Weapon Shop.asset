@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb5c9764c5fc89544a7aeee2e767e3bc, type: 3}
+  m_Name: Weapon Shop
+  m_EditorClassIdentifier: 
+  ItemList:
+  - Name: Short Sword
+    Price: 100
+    Icon: {fileID: 21300000, guid: e91fc63fcd9bb1c4abf7ffdc0848a328, type: 3}
+    Type: 2
+  - Name: Scimitar
+    Price: 200
+    Icon: {fileID: 21300000, guid: 30c3473b99a93ab48a29a89a1b7cced2, type: 3}
+    Type: 2
+  - Name: Sabre
+    Price: 300
+    Icon: {fileID: 21300000, guid: 422ce2ba344177449a97fe0f91d36fe7, type: 3}
+    Type: 2
+  - Name: Falchion
+    Price: 400
+    Icon: {fileID: 21300000, guid: 900f7aec7c89b124690cb27ede023bbf, type: 3}
+    Type: 2
+  - Name: Crystal Sword
+    Price: 500
+    Icon: {fileID: 21300000, guid: bec8f959272e6f6489baf3cc65a0bb35, type: 3}
+    Type: 2
+  - Name: Broad Sword
+    Price: 600
+    Icon: {fileID: 21300000, guid: aaa3fd0a673d5ea4a8ab1f7c8a8ca650, type: 3}
+    Type: 2
+  - Name: Long Sword
+    Price: 700
+    Icon: {fileID: 21300000, guid: ad8852f27df9aa9488cf6e70a476ce85, type: 3}
+    Type: 2
+  - Name: War Sword
+    Price: 800
+    Icon: {fileID: 21300000, guid: b4034f673cb3e5c4fb7df763926e35e8, type: 3}
+    Type: 2
+  - Name: Hand Axe
+    Price: 100
+    Icon: {fileID: 21300000, guid: c646d600d1539604a8e82573a3b3233a, type: 3}
+    Type: 0
+  - Name: Axe
+    Price: 200
+    Icon: {fileID: 21300000, guid: 587093c6a751e8541b557be832ddaf69, type: 3}
+    Type: 0
+  - Name: Double Axe
+    Price: 300
+    Icon: {fileID: 21300000, guid: 928bd50e9819fc940ac04aa68ad6a57e, type: 3}
+    Type: 0
+  - Name: Military Pick
+    Price: 400
+    Icon: {fileID: 21300000, guid: ec7b37d5638794441b9deb9e4f46f084, type: 3}
+    Type: 0
+  - Name: War Axe
+    Price: 500
+    Icon: {fileID: 21300000, guid: 15c647f5a5273234b9875ce59b78684c, type: 3}
+    Type: 0
+  - Name: Large Axe
+    Price: 600
+    Icon: {fileID: 21300000, guid: 246446639301e824c93a6dff25b01099, type: 3}
+    Type: 0
+  - Name: Broad Axe
+    Price: 700
+    Icon: {fileID: 21300000, guid: 20b282425d78e6140b36e0671bfb1339, type: 3}
+    Type: 0
+  - Name: Battle Axe
+    Price: 800
+    Icon: {fileID: 21300000, guid: 878afc8a9b6d7094d89715fe30b2749b, type: 3}
+    Type: 0
+  - Name: Great Axe
+    Price: 900
+    Icon: {fileID: 21300000, guid: 5df8901426f028a49870a51bb9c58755, type: 3}
+    Type: 0
+  - Name: Giant Axe
+    Price: 1000
+    Icon: {fileID: 21300000, guid: d85a26fb656eae54abd83c6fc66f88fd, type: 3}
+    Type: 0
+  - Name: Buckler
+    Price: 100
+    Icon: {fileID: 21300000, guid: d0da05112441c7a4bb1ee5dd7581948d, type: 3}
+    Type: 5
+  - Name: Small Shield
+    Price: 200
+    Icon: {fileID: 21300000, guid: 1291fb0fe10883f499fba69340011062, type: 3}
+    Type: 5
+  - Name: Large Shield
+    Price: 300
+    Icon: {fileID: 21300000, guid: 7fb2440d4bef6264683f07a4d164c00c, type: 3}
+    Type: 5
+  - Name: Kite Shield
+    Price: 400
+    Icon: {fileID: 21300000, guid: b9cef93a2607d6a44aea27445c68980b, type: 3}
+    Type: 5
+  - Name: Spiked Shield
+    Price: 500
+    Icon: {fileID: 21300000, guid: 3c830820830a5f947b015bac86147eff, type: 3}
+    Type: 5
+  - Name: Tower Shield
+    Price: 600
+    Icon: {fileID: 21300000, guid: b16c998d9057f664181ed74551c22129, type: 3}
+    Type: 5
+  - Name: Bone Shield
+    Price: 700
+    Icon: {fileID: 21300000, guid: f2e016095a4930b4ea0962dced8526eb, type: 3}
+    Type: 5
+  - Name: Gothic Shield
+    Price: 800
+    Icon: {fileID: 21300000, guid: b095147095dc44f4698fbd6c32e41c36, type: 3}
+    Type: 5

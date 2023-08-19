@@ -45,24 +45,34 @@ public class GameManager : MonoBehaviour
                 {
                     if (!spawner.IsDone) return;
                 }
-                
+
                 StartGameOverProcess();
             }
         });
         onPlayerDeath.AddListener(StartGameOverProcess);
     }
 
-    void Pause()
+    public void Pause()
     {
         Time.timeScale = 0;
     }
 
-    void Resume()
+    public void Resume()
     {
         Time.timeScale = 1;
     }
 
-    // Update is called once per frame
+    public void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void Home()
+    {
+        SceneManager.LoadScene("Main");
+    }
+
+
     void Update()
     {
     }

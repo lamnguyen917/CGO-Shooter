@@ -1,10 +1,12 @@
 using System;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class InputControl : MonoBehaviour
 {
     [SerializeField] private InputMode mode;
 
+    public ButtonState pauseButton;
     public Vector3 moveDirection;
     public Vector3 aimDirection;
     public bool shoot;
@@ -24,16 +26,18 @@ public class InputControl : MonoBehaviour
     {
         SetMove();
         SetAim();
+        CheckButtonState();
     }
 
     void SetMove()
     {
+        if (EventSystem.current.IsPointerOverGameObject()) return;
         switch (mode)
         {
             case InputMode.Keyboard:
                 moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")).normalized;
                 isMoving = Input.GetButton("Horizontal") || Input.GetButton("Vertical");
-                shoot = Input.GetButtonDown("Fire1");
+                shoot = Input.GetButton("Fire1");
                 break;
             case InputMode.VirtualJoystick:
                 moveDirection = _joystick.MoveDirection;
@@ -70,5 +74,18 @@ public class InputControl : MonoBehaviour
     void JoystickAim()
     {
         aimDirection = _joystick.AimDirection;
+    }
+
+    void CheckButtonState()
+    {
+        pauseButton = GetButtonState(KeyCode.Escape);
+    }
+
+    ButtonState GetButtonState(KeyCode code)
+    {
+        if (Input.GetKeyDown(code)) return ButtonState.IsDown;
+        if (Input.GetKeyUp(code)) return ButtonState.IsUp;
+        if (Input.GetKey(code)) return ButtonState.IsHold;
+        return ButtonState.Normal;
     }
 }

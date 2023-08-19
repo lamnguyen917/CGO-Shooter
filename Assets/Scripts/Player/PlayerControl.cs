@@ -63,6 +63,11 @@ public class PlayerControl : BaseCharacter
         {
             weaponControl.Fire();
         }
+
+        if (inputControl.pauseButton == ButtonState.IsDown)
+        {
+            UIManager.Instance.Pause();
+        }
     }
 
     protected override void Dead()
